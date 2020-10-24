@@ -1,29 +1,29 @@
 0 Divergences 
 Passed validation 
-Computed from 80 by 215 log-likelihood matrix
+Computed from 80 by 219 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1117.03    34.29
-p_loo       28.73        -
+elpd_loo -1133.25    33.59
+p_loo       24.34        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      196   91.2%
- (0.5, 0.7]   (ok)         11    5.1%
-   (0.7, 1]   (bad)         4    1.9%
-   (1, Inf)   (very bad)    4    1.9%
+(-Inf, 0.5]   (good)      203   92.7%
+ (0.5, 0.7]   (ok)         13    5.9%
+   (0.7, 1]   (bad)         1    0.5%
+   (1, Inf)   (very bad)    2    0.9%
 
-              mean        sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa           0.236     0.044    0.172  ...      67.0      60.0   1.02
-pu           0.757     0.047    0.701  ...     152.0      60.0   1.15
-mu           0.105     0.016    0.077  ...      38.0      40.0   1.12
-mus          0.193     0.032    0.143  ...      81.0      39.0   1.04
-gamma        0.347     0.052    0.245  ...     109.0      59.0   1.03
-Is_begin   334.960   234.242   24.063  ...     152.0      38.0   1.02
-Ia_begin  1337.935   452.114  446.406  ...      91.0      58.0   1.00
-E_begin   1852.426  1066.284  134.396  ...      34.0      60.0   1.04
+              mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
+pa           0.237    0.059    0.152  ...     152.0      80.0   1.07
+pu           0.752    0.038    0.701  ...     152.0      91.0   1.01
+mu           0.104    0.015    0.078  ...      13.0      39.0   1.18
+mus          0.190    0.037    0.129  ...     109.0      48.0   1.00
+gamma        0.334    0.065    0.233  ...     145.0      70.0   1.01
+Is_begin   286.977  184.253   45.477  ...      80.0      96.0   0.99
+Ia_begin  1381.426  434.379  626.932  ...     152.0      48.0   1.01
+E_begin   1935.577  863.726  402.570  ...      94.0      96.0   0.99
 
 [8 rows x 11 columns]
