@@ -1,29 +1,27 @@
 0 Divergences 
-Failed validation 
-Computed from 80 by 215 log-likelihood matrix
+Passed validation 
+Computed from 80 by 219 log-likelihood matrix
 
          Estimate       SE
-elpd_loo  -890.04    26.28
-p_loo       32.97        -
-
-There has been a warning during the calculation. Please check the results.
+elpd_loo  -897.79    21.39
+p_loo        7.81        -
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      208   96.7%
- (0.5, 0.7]   (ok)          3    1.4%
-   (0.7, 1]   (bad)         4    1.9%
+(-Inf, 0.5]   (good)      213   97.3%
+ (0.5, 0.7]   (ok)          6    2.7%
+   (0.7, 1]   (bad)         0    0.0%
    (1, Inf)   (very bad)    0    0.0%
 
            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa        0.252  0.040   0.186    0.298  ...     3.0       3.0      22.0   2.02
-pu        0.893  0.004   0.886    0.897  ...     3.0       4.0      40.0   1.89
-mu        0.177  0.006   0.167    0.186  ...     3.0       3.0      14.0   1.99
-mus       0.155  0.015   0.136    0.181  ...     3.0       3.0      43.0   1.94
-gamma     0.126  0.005   0.117    0.133  ...     3.0       3.0      22.0   2.07
-Is_begin  1.019  0.764   0.203    1.940  ...     3.0       3.0      22.0   1.97
-Ia_begin  0.874  0.335   0.302    1.298  ...     3.0       3.0      19.0   2.27
-E_begin   1.739  1.667   0.034    3.867  ...     3.0       3.0      14.0   2.27
+pa        0.302  0.032   0.240    0.331  ...     3.0       3.0      22.0   2.53
+pu        0.879  0.010   0.864    0.890  ...     3.0       3.0      18.0   1.98
+mu        0.200  0.004   0.192    0.206  ...     3.0       4.0      29.0   1.65
+mus       0.145  0.030   0.111    0.186  ...     3.0       3.0      55.0   1.88
+gamma     0.140  0.020   0.118    0.165  ...     3.0       3.0      14.0   2.22
+Is_begin  0.728  0.562   0.114    1.390  ...     3.0       4.0      22.0   1.86
+Ia_begin  0.709  0.366   0.231    1.603  ...     4.0       4.0      14.0   1.69
+E_begin   1.329  0.921   0.415    3.210  ...     3.0       4.0      32.0   1.84
 
 [8 rows x 11 columns]
