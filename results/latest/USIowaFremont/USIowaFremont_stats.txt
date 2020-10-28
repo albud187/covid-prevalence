@@ -1,29 +1,29 @@
 0 Divergences 
 Failed validation 
-Computed from 80 by 219 log-likelihood matrix
+Computed from 80 by 225 log-likelihood matrix
 
          Estimate       SE
-elpd_loo  -291.46    26.04
-p_loo       24.70        -
+elpd_loo  -310.28    26.92
+p_loo       21.01        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      213   97.3%
- (0.5, 0.7]   (ok)          4    1.8%
+(-Inf, 0.5]   (good)      207   92.0%
+ (0.5, 0.7]   (ok)         16    7.1%
    (0.7, 1]   (bad)         2    0.9%
    (1, Inf)   (very bad)    0    0.0%
 
            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa        0.287  0.041   0.215    0.348  ...    80.0      79.0      91.0   1.07
-pu        0.883  0.034   0.811    0.900  ...    22.0      35.0      22.0   1.01
-mu        0.150  0.023   0.110    0.192  ...    39.0      40.0      35.0   1.15
-mus       0.178  0.033   0.135    0.246  ...    86.0      90.0      88.0   1.00
-gamma     0.236  0.046   0.147    0.305  ...    37.0      68.0      69.0   1.03
-Is_begin  0.655  0.697   0.037    2.319  ...    33.0      29.0      93.0   1.07
-Ia_begin  1.239  1.232   0.025    3.750  ...    91.0      88.0      93.0   1.01
-E_begin   0.530  0.694   0.013    1.475  ...    98.0      84.0      99.0   1.01
+pa        0.277  0.046   0.191    0.349  ...    91.0      88.0      57.0   1.03
+pu        0.878  0.028   0.837    0.900  ...    49.0      43.0      40.0   1.06
+mu        0.135  0.027   0.088    0.185  ...    26.0      27.0      60.0   1.06
+mus       0.174  0.031   0.124    0.219  ...    75.0      95.0      59.0   0.99
+gamma     0.216  0.043   0.142    0.303  ...    50.0      51.0      52.0   1.03
+Is_begin  0.407  0.551   0.012    1.288  ...    78.0      54.0      56.0   1.00
+Ia_begin  0.743  0.930   0.001    2.352  ...    62.0      48.0      43.0   1.02
+E_begin   0.408  0.657   0.009    1.293  ...    79.0      70.0      49.0   0.99
 
 [8 rows x 11 columns]
