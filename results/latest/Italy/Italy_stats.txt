@@ -1,29 +1,29 @@
 0 Divergences 
 Passed validation 
-Computed from 80 by 226 log-likelihood matrix
+Computed from 80 by 231 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1469.10    20.98
-p_loo       21.40        -
+elpd_loo -1523.00    21.91
+p_loo       27.48        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      202   89.4%
- (0.5, 0.7]   (ok)         18    8.0%
-   (0.7, 1]   (bad)         6    2.7%
-   (1, Inf)   (very bad)    0    0.0%
+(-Inf, 0.5]   (good)      177   76.6%
+ (0.5, 0.7]   (ok)         47   20.3%
+   (0.7, 1]   (bad)         6    2.6%
+   (1, Inf)   (very bad)    1    0.4%
 
                mean         sd     hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa            0.233      0.058      0.152  ...      50.0      40.0   1.03
-pu            0.746      0.028      0.702  ...      81.0      57.0   1.01
-mu            0.142      0.031      0.095  ...       5.0      36.0   1.41
-mus           0.219      0.036      0.155  ...      46.0      88.0   1.04
-gamma         0.262      0.043      0.193  ...     102.0      91.0   1.01
-Is_begin  15205.808   5405.312   4926.690  ...      39.0      59.0   1.02
-Ia_begin  32179.492  11337.556  14432.746  ...      49.0      91.0   1.00
-E_begin   47871.835  17981.807  11862.854  ...     122.0      62.0   1.06
+pa            0.243      0.059      0.165  ...      25.0      38.0   1.12
+pu            0.739      0.034      0.700  ...      79.0      50.0   1.03
+mu            0.147      0.028      0.106  ...      29.0      22.0   1.07
+mus           0.215      0.036      0.163  ...      65.0      47.0   1.08
+gamma         0.270      0.048      0.169  ...     137.0      91.0   1.01
+Is_begin  16177.027   5865.759   6761.950  ...      50.0      61.0   1.05
+Ia_begin  30616.778  12133.078  12921.541  ...      76.0      55.0   1.01
+E_begin   42500.924  23234.216   1809.029  ...       9.0      24.0   1.24
 
 [8 rows x 11 columns]
