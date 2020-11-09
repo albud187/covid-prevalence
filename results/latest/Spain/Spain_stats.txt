@@ -1,27 +1,29 @@
 0 Divergences 
 Passed validation 
-Computed from 80 by 237 log-likelihood matrix
+Computed from 80 by 239 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -2193.10    22.53
-p_loo       16.60        -
+elpd_loo -2212.49    22.09
+p_loo       15.53        -
+
+There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      221   93.2%
- (0.5, 0.7]   (ok)         16    6.8%
-   (0.7, 1]   (bad)         0    0.0%
+(-Inf, 0.5]   (good)      222   92.9%
+ (0.5, 0.7]   (ok)         13    5.4%
+   (0.7, 1]   (bad)         4    1.7%
    (1, Inf)   (very bad)    0    0.0%
 
-               mean        sd    hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa            0.234     0.050     0.167  ...      22.0      60.0   1.09
-pu            0.744     0.041     0.700  ...      52.0      60.0   1.02
-mu            0.146     0.024     0.111  ...      26.0      40.0   1.11
-mus           0.192     0.029     0.138  ...      37.0      61.0   1.00
-gamma         0.296     0.050     0.187  ...      73.0      59.0   1.04
-Is_begin   4381.669  3129.830    42.850  ...      14.0      55.0   1.13
-Ia_begin  15300.901  5150.834  6419.603  ...      19.0      15.0   1.08
-E_begin   17531.498  9631.367   771.844  ...      47.0      31.0   1.03
+               mean         sd    hdi_3%  ...  ess_bulk  ess_tail  r_hat
+pa            0.243      0.055     0.158  ...      46.0      19.0   1.04
+pu            0.761      0.047     0.703  ...      62.0      57.0   1.00
+mu            0.168      0.021     0.129  ...       4.0      21.0   1.56
+mus           0.206      0.026     0.153  ...      36.0      59.0   1.06
+gamma         0.284      0.047     0.215  ...      68.0      60.0   1.01
+Is_begin   6210.682   3049.859   937.577  ...      19.0      60.0   1.08
+Ia_begin  14308.078   6079.925  3058.123  ...      19.0      33.0   1.10
+E_begin   20618.471  11483.547  1907.054  ...      35.0      18.0   1.13
 
 [8 rows x 11 columns]
