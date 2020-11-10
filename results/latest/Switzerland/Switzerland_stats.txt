@@ -1,29 +1,29 @@
 0 Divergences 
-Failed validation 
-Computed from 80 by 231 log-likelihood matrix
+Passed validation 
+Computed from 80 by 239 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1541.31    32.80
-p_loo       20.58        -
+elpd_loo -1644.05    29.97
+p_loo       14.94        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      201   87.0%
- (0.5, 0.7]   (ok)         21    9.1%
-   (0.7, 1]   (bad)         8    3.5%
+(-Inf, 0.5]   (good)      212   88.7%
+ (0.5, 0.7]   (ok)         24   10.0%
+   (0.7, 1]   (bad)         2    0.8%
    (1, Inf)   (very bad)    1    0.4%
 
-              mean        sd    hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa           0.244     0.054     0.156  ...      74.0      60.0   1.00
-pu           0.756     0.043     0.700  ...      52.0      24.0   0.99
-mu           0.208     0.027     0.159  ...      14.0      33.0   1.13
-mus          0.231     0.034     0.179  ...      26.0      31.0   1.06
-gamma        0.325     0.051     0.228  ...      90.0      59.0   0.99
-Is_begin  1516.287   938.728    46.583  ...      32.0      40.0   1.04
-Ia_begin  4018.820  1475.989  1141.447  ...      69.0      38.0   1.03
-E_begin   4962.764  2796.469   436.971  ...      34.0      40.0   1.03
+              mean        sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
+pa           0.245     0.058    0.153  ...      49.0      40.0   1.08
+pu           0.778     0.049    0.704  ...      30.0      32.0   1.06
+mu           0.217     0.024    0.165  ...      14.0      38.0   1.11
+mus          0.229     0.033    0.181  ...      32.0      59.0   1.06
+gamma        0.346     0.050    0.249  ...      80.0      59.0   0.99
+Is_begin  1609.015   933.092  379.047  ...      59.0      91.0   1.00
+Ia_begin  4025.731  1645.521  680.388  ...      70.0      30.0   1.01
+E_begin   4998.741  2695.745  828.211  ...      27.0      60.0   1.03
 
 [8 rows x 11 columns]
