@@ -1,29 +1,29 @@
-11 Divergences 
+2 Divergences 
 Passed validation 
-Computed from 80 by 239 log-likelihood matrix
+Computed from 80 by 245 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1487.49    28.48
-p_loo       49.59        -
+elpd_loo -1516.29    27.46
+p_loo       31.04        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      198   82.8%
- (0.5, 0.7]   (ok)         27   11.3%
-   (0.7, 1]   (bad)         9    3.8%
-   (1, Inf)   (very bad)    5    2.1%
+(-Inf, 0.5]   (good)      210   85.7%
+ (0.5, 0.7]   (ok)         23    9.4%
+   (0.7, 1]   (bad)        10    4.1%
+   (1, Inf)   (very bad)    2    0.8%
 
               mean        sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa           0.275     0.053    0.185  ...       6.0      38.0   1.35
-pu           0.808     0.065    0.720  ...       4.0      57.0   1.64
-mu           0.207     0.071    0.123  ...       3.0      17.0   2.24
-mus          0.239     0.042    0.168  ...      26.0      91.0   1.18
-gamma        0.398     0.154    0.264  ...       7.0      18.0   1.28
-Is_begin   725.111   383.240    7.902  ...      12.0      39.0   1.40
-Ia_begin  2195.114   990.301  587.702  ...      14.0      22.0   1.11
-E_begin   4049.931  3863.336   87.559  ...       4.0      19.0   1.58
+pa           0.246     0.056    0.162  ...      60.0      43.0   1.05
+pu           0.767     0.038    0.709  ...      28.0      54.0   1.08
+mu           0.132     0.025    0.097  ...       8.0      17.0   1.19
+mus          0.249     0.040    0.183  ...      99.0      40.0   1.00
+gamma        0.340     0.049    0.251  ...     152.0      59.0   0.98
+Is_begin   673.060   331.572   89.942  ...      34.0      59.0   1.01
+Ia_begin  1642.999   681.933  413.070  ...      29.0      40.0   1.10
+E_begin   1850.196  1076.246  207.515  ...     112.0      43.0   1.00
 
 [8 rows x 11 columns]

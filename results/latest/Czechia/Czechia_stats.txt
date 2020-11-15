@@ -1,29 +1,29 @@
-2 Divergences 
+0 Divergences 
 Passed validation 
-Computed from 80 by 240 log-likelihood matrix
+Computed from 80 by 245 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1485.67    30.47
-p_loo       29.03        -
+elpd_loo -1574.22    38.45
+p_loo       29.22        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      210   87.5%
- (0.5, 0.7]   (ok)         23    9.6%
-   (0.7, 1]   (bad)         5    2.1%
-   (1, Inf)   (very bad)    2    0.8%
+(-Inf, 0.5]   (good)      207   84.5%
+ (0.5, 0.7]   (ok)         31   12.7%
+   (0.7, 1]   (bad)         6    2.4%
+   (1, Inf)   (very bad)    1    0.4%
 
-              mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa           0.248    0.061    0.150  ...     128.0      72.0   1.04
-pu           0.778    0.057    0.703  ...     109.0      36.0   1.00
-mu           0.148    0.018    0.117  ...      27.0      59.0   1.02
-mus          0.220    0.029    0.161  ...      99.0     100.0   0.98
-gamma        0.305    0.046    0.229  ...      91.0      91.0   0.98
-Is_begin   273.296  130.180   17.049  ...      63.0      73.0   1.08
-Ia_begin   649.409  256.379  287.914  ...     114.0      59.0   1.03
-E_begin   1029.017  554.873  231.973  ...     152.0      74.0   1.02
+             mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
+pa          0.258    0.051    0.168  ...      41.0      16.0   1.09
+pu          0.794    0.062    0.701  ...      32.0      37.0   1.18
+mu          0.144    0.024    0.107  ...      17.0      24.0   1.32
+mus         0.210    0.032    0.143  ...     132.0      48.0   1.00
+gamma       0.298    0.052    0.214  ...     105.0      93.0   0.99
+Is_begin  278.971  116.396   68.117  ...      70.0      87.0   1.04
+Ia_begin  712.217  259.062  250.169  ...      44.0      38.0   1.04
+E_begin   948.100  587.291   80.876  ...      50.0      51.0   1.02
 
 [8 rows x 11 columns]
