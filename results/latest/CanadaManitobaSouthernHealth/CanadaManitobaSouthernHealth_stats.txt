@@ -1,29 +1,29 @@
 0 Divergences 
 Passed validation 
-Computed from 80 by 261 log-likelihood matrix
+Computed from 80 by 262 log-likelihood matrix
 
          Estimate       SE
-elpd_loo  -673.40    32.32
-p_loo       21.60        -
+elpd_loo  -680.01    33.17
+p_loo       23.24        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      246   94.3%
- (0.5, 0.7]   (ok)         10    3.8%
-   (0.7, 1]   (bad)         4    1.5%
+(-Inf, 0.5]   (good)      243   92.7%
+ (0.5, 0.7]   (ok)         16    6.1%
+   (0.7, 1]   (bad)         2    0.8%
    (1, Inf)   (very bad)    1    0.4%
 
-            mean      sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa         0.299   0.040   0.225    0.350  ...    81.0      82.0      59.0   1.05
-pu         0.890   0.013   0.866    0.900  ...   101.0     105.0      60.0   1.01
-mu         0.209   0.025   0.166    0.261  ...    34.0      41.0      47.0   1.05
-mus        0.195   0.027   0.153    0.250  ...    54.0      54.0      35.0   1.01
-gamma      0.267   0.048   0.195    0.352  ...   106.0      96.0      59.0   1.00
-Is_begin   3.075   2.865   0.029    9.227  ...    55.0      32.0      48.0   1.06
-Ia_begin  10.733  10.779   0.154   33.260  ...   105.0      78.0      42.0   0.99
-E_begin    4.620   6.106   0.071   13.967  ...   104.0     152.0      86.0   1.02
+            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
+pa         0.300  0.038   0.230    0.350  ...    43.0      26.0      24.0   1.06
+pu         0.888  0.013   0.871    0.900  ...    97.0     114.0      42.0   1.01
+mu         0.196  0.028   0.152    0.249  ...    20.0      21.0      38.0   1.12
+mus        0.196  0.031   0.143    0.257  ...    74.0      55.0      76.0   1.01
+gamma      0.270  0.039   0.186    0.323  ...   111.0      93.0      58.0   1.06
+Is_begin   3.156  2.646   0.161    8.586  ...   152.0     118.0      60.0   1.01
+Ia_begin  10.323  8.696   0.156   24.097  ...    52.0      64.0      57.0   0.99
+E_begin    3.659  3.226   0.019    9.783  ...    50.0      44.0      57.0   1.03
 
 [8 rows x 11 columns]
