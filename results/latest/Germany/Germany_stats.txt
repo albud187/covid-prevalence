@@ -1,29 +1,29 @@
-0 Divergences 
+1 Divergences 
 Passed validation 
-Computed from 80 by 255 log-likelihood matrix
+Computed from 80 by 262 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -2024.95    33.87
-p_loo       23.94        -
+elpd_loo -2105.27    32.35
+p_loo       23.72        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      225   88.2%
- (0.5, 0.7]   (ok)         20    7.8%
-   (0.7, 1]   (bad)        10    3.9%
-   (1, Inf)   (very bad)    0    0.0%
+(-Inf, 0.5]   (good)      231   88.2%
+ (0.5, 0.7]   (ok)         21    8.0%
+   (0.7, 1]   (bad)         9    3.4%
+   (1, Inf)   (very bad)    1    0.4%
 
                mean         sd    hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa            0.232      0.047     0.151  ...     135.0      60.0   0.98
-pu            0.751      0.037     0.701  ...      83.0      57.0   1.04
-mu            0.142      0.022     0.102  ...       6.0      26.0   1.34
-mus           0.204      0.037     0.142  ...      47.0      60.0   1.08
-gamma         0.277      0.045     0.209  ...     131.0     100.0   1.00
-Is_begin   6305.449   2526.815  1387.866  ...      48.0      41.0   1.00
-Ia_begin  14900.212   5993.092  1870.316  ...      48.0      22.0   1.04
-E_begin   19291.627  11151.514   418.259  ...      66.0      59.0   1.06
+pa            0.234      0.050     0.162  ...      69.0      30.0   1.05
+pu            0.750      0.036     0.700  ...      72.0      57.0   1.00
+mu            0.130      0.018     0.102  ...      16.0      24.0   1.13
+mus           0.198      0.025     0.149  ...      56.0      93.0   1.02
+gamma         0.270      0.044     0.188  ...      88.0      72.0   1.02
+Is_begin   6053.931   3642.315   242.176  ...      48.0      40.0   1.02
+Ia_begin  17343.288   6573.973  5256.901  ...      81.0      60.0   0.99
+E_begin   22172.296  10821.784  1578.361  ...      55.0      60.0   1.01
 
 [8 rows x 11 columns]
