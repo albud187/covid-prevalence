@@ -1,29 +1,29 @@
 0 Divergences 
-Failed validation 
-Computed from 80 by 261 log-likelihood matrix
+Passed validation 
+Computed from 80 by 263 log-likelihood matrix
 
          Estimate       SE
-elpd_loo  -545.08    19.26
-p_loo       19.75        -
+elpd_loo  -547.64    19.03
+p_loo       17.24        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      246   94.3%
+(-Inf, 0.5]   (good)      248   94.3%
  (0.5, 0.7]   (ok)         11    4.2%
    (0.7, 1]   (bad)         4    1.5%
    (1, Inf)   (very bad)    0    0.0%
 
            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa        0.256  0.051   0.169    0.339  ...   152.0     152.0      57.0   1.04
-pu        0.844  0.025   0.800    0.885  ...    28.0      29.0      91.0   1.08
-mu        0.125  0.024   0.082    0.174  ...    65.0      57.0      41.0   1.01
-mus       0.171  0.039   0.112    0.251  ...   111.0     152.0      95.0   1.08
-gamma     0.212  0.043   0.130    0.293  ...   152.0     152.0      93.0   1.02
-Is_begin  1.144  0.977   0.037    3.168  ...    58.0      67.0      62.0   1.02
-Ia_begin  2.720  2.421   0.065    7.026  ...    78.0     124.0      79.0   0.99
-E_begin   1.199  1.139   0.017    3.370  ...   112.0     105.0     100.0   1.00
+pa        0.260  0.055   0.164    0.344  ...   104.0      96.0      17.0   1.00
+pu        0.844  0.031   0.785    0.894  ...    56.0      48.0     100.0   1.06
+mu        0.140  0.027   0.092    0.193  ...    32.0      33.0      59.0   1.06
+mus       0.175  0.027   0.133    0.237  ...   116.0     127.0      88.0   0.99
+gamma     0.212  0.036   0.142    0.275  ...    29.0      36.0      95.0   1.05
+Is_begin  1.025  0.801   0.046    2.834  ...    76.0      70.0      87.0   1.00
+Ia_begin  2.971  2.429   0.003    7.970  ...    68.0      43.0      36.0   1.05
+E_begin   1.457  1.338   0.032    4.404  ...    66.0      56.0      80.0   1.02
 
 [8 rows x 11 columns]
